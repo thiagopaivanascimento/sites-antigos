@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>Nike Football</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<!--Fireworks MX 2004 Dreamweaver MX 2004 target.  Created Thu Nov 30 16:12:25 GMT-0200 (Hora oficial do Brasil) 2006-->
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])?args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) { img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr) for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function mmLoadMenus() {
+  if (window.mm_menu_1130151319_0) return;
+    window.mm_menu_1130151319_0_1 = new Menu("Google",112,20,"Verdana, Arial, Helvetica, sans-serif",14,"#ffffff","#000000","#333333","#ffffff","center","middle",3,1,1000,-5,7,true,true,true,0,true,true);
+    mm_menu_1130151319_0_1.addMenuItem("Orkut","location='http://www.orkut.com'");
+     mm_menu_1130151319_0_1.bgImageUp="mmmenu1_112x20_up.gif";
+     mm_menu_1130151319_0_1.bgImageOver="mmmenu1_112x20_over.gif";
+     mm_menu_1130151319_0_1.fontWeight="bold";
+     mm_menu_1130151319_0_1.hideOnMouseOut=true;
+     mm_menu_1130151319_0_1.bgColor='#cccccc';
+  window.mm_menu_1130151319_0 = new Menu("root",112,20,"Verdana, Arial, Helvetica, sans-serif",14,"#ffffff","#000000","#333333","#ffffff","center","middle",3,1,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1130151319_0.addMenuItem("UOL","location='http://www.uol.com.br'");
+  mm_menu_1130151319_0.addMenuItem(mm_menu_1130151319_0_1,"location='http://www.google.com.br'");
+  mm_menu_1130151319_0.addMenuItem("Globo","location='http://www.globo.com'");
+  mm_menu_1130151319_0.addMenuItem("Baixaki","location='http://www.baixaki.com.br'");
+  mm_menu_1130151319_0.addMenuItem("Cade","location='http://www.cade.com.br'");
+  mm_menu_1130151319_0.addMenuItem("IG","location='http://www.ig.com.br'");
+  mm_menu_1130151319_0.addMenuItem("Yahoo","location='http://www.yahoo.com.br'");
+  mm_menu_1130151319_0.addMenuItem("Cinepop","location='http://www.cinepop.com.br'");
+  mm_menu_1130151319_0.addMenuItem("FolhaDirigida","location='http://www.folhadirigida.com.br'");
+   mm_menu_1130151319_0.bgImageUp="mmmenu1_112x20_up.gif";
+   mm_menu_1130151319_0.bgImageOver="mmmenu1_112x20_over.gif";
+   mm_menu_1130151319_0.fontWeight="bold";
+   mm_menu_1130151319_0.hideOnMouseOut=true;
+   mm_menu_1130151319_0.childMenuIcon="arrows.gif";
+   mm_menu_1130151319_0.bgColor='#cccccc';
+
+  mm_menu_1130151319_0.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="mm_menu.js"></script>
+</head>
+<body bgcolor="#cccccc" onLoad="MM_preloadImages('index_r2_c2_f2.gif','index_r2_c2_f4.gif','index_r2_c2_f3.gif','index_r2_c4_f2.gif','index_r2_c6_f2.gif','index_r2_c8_f2.gif','index_r2_c11_f2.gif','index_r4_c9_f2.gif');">
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table border="0" cellpadding="0" cellspacing="0" width="800">
+<!-- fwtable fwsrc="Untitled" fwbase="index.gif" fwstyle="Dreamweaver" fwdocid = "1061436614" fwnested="0" -->
+  <tr>
+   <td><img src="spacer.gif" width="36" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="136" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="14" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="136" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="25" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="136" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="19" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="117" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="13" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="93" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="43" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="12" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+    <td colspan="13"><img name="index_r1_c1" src="index_r1_c1.gif" width="800" height="142" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="142" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="4"><img name="index_r2_c1" src="index_r2_c1.gif" width="36" height="458" border="0" alt=""></td>
+   <td><a href="index.htm" onMouseOut="MM_nbGroup('out');MM_startTimeout();" onMouseOver="MM_showMenu(window.mm_menu_1130151319_0,17,122,null,'index_r2_c2');MM_nbGroup('over','index_r2_c2','index_r2_c2_f2.gif','index_r2_c2_f4.gif',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c2','index_r2_c2_f3.gif',1);"><img name="index_r2_c2" src="index_r2_c2.gif" width="136" height="105" border="0" alt=""></a></td>
+   <td rowspan="4"><img name="index_r2_c3" src="index_r2_c3.gif" width="14" height="458" border="0" alt=""></td>
+   <td><a href="fotos.htm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c4','','index_r2_c4_f2.gif',1);"><img name="index_r2_c4" src="index_r2_c4.gif" width="136" height="105" border="0" alt=""></a></td>
+   <td rowspan="4"><img name="index_r2_c5" src="index_r2_c5.gif" width="25" height="458" border="0" alt=""></td>
+   <td><a href="historia.htm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c6','','index_r2_c6_f2.gif',1);"><img name="index_r2_c6" src="index_r2_c6.gif" width="136" height="105" border="0" alt=""></a></td>
+   <td rowspan="4"><img name="index_r2_c7" src="index_r2_c7.gif" width="20" height="458" border="0" alt=""></td>
+   <td colspan="2"><a href="cadastro.htm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c8','','index_r2_c8_f2.gif',1);"><img name="index_r2_c8" src="index_r2_c8.gif" width="136" height="105" border="0" alt=""></a></td>
+   <td rowspan="2"><img name="index_r2_c10" src="index_r2_c10.gif" width="13" height="328" border="0" alt=""></td>
+   <td colspan="2"><a href="faleconosco.htm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r2_c11','','index_r2_c11_f2.gif',1);"><img name="index_r2_c11" src="index_r2_c11.gif" width="136" height="105" border="0" alt=""></a></td>
+   <td rowspan="4"><img name="index_r2_c13" src="index_r2_c13.gif" width="12" height="458" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="105" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="3"><img name="index_r3_c2" src="index_r3_c2.gif" width="136" height="353" border="0" alt=""></td>
+   <td rowspan="3"><img name="index_r3_c4" src="index_r3_c4.gif" width="136" height="353" border="0" alt=""></td>
+   <td rowspan="3"><img name="index_r3_c6" src="index_r3_c6.gif" width="136" height="353" border="0" alt=""></td>
+   <td colspan="2"><img name="index_r3_c8" src="index_r3_c8.gif" width="136" height="223" border="0" alt=""></td>
+   <td colspan="2"><img name="index_r3_c11" src="index_r3_c11.gif" width="136" height="223" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="223" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2"><img name="index_r4_c8" src="index_r4_c8.gif" width="19" height="130" border="0" alt=""></td>
+   <td colspan="3"><a href="historia.htm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('index_r4_c9','','index_r4_c9_f2.gif',1);"><img name="index_r4_c9" src="index_r4_c9.gif" width="223" height="63" border="0" alt=""></a></td>
+   <td rowspan="2"><img name="index_r4_c12" src="index_r4_c12.gif" width="43" height="130" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="63" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="index_r5_c9" src="index_r5_c9.gif" width="223" height="67" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="67" border="0" alt=""></td>
+  </tr>
+</table>
+</body>
+</html>

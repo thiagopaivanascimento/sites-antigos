@@ -1,0 +1,33 @@
+
+
+#menu { 
+width:200px; 
+height:32; 
+padding-left: 5px; 
+padding-top: 2px; 
+font-family: verdana; 
+font-size: 12px; 
+color: white;  
+background-color: #43A9FF; 
+border: 1px outset white; 
+text-decoration: none;  
+text-align: center; 
+}
+#menu:hover {  
+width:200px; 
+height:32; 
+padding-left: 5px; 
+padding-top: 2px; 
+font-family: verdana; 
+font-size: 12px; 
+color: white;  
+background-color: #1E77C3; 
+border: 1px double white;   
+text-decoration: underline; 
+text-align: center; 
+}
+
+a {color:#FFFFFF; text-decoration:none;}
+
+a:hover {color:#FFFFFF; text-decoration: underline;}
+
